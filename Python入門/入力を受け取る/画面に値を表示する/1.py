@@ -1,0 +1,2 @@
+print("Hello Algo-method!")
+
