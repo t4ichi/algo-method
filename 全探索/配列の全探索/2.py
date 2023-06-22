@@ -1,7 +1,8 @@
 N,V = map(int,input().split())
 A = list(map(int,input().split()))
-ans = "No"
+
+ans = 0
 for i in A:
 	if i == V:
-		ans = "Yes"
+		ans += 1
 print(ans)
